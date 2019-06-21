@@ -1,0 +1,15 @@
+{
+    "name": "lucas/biblioteca",
+    "authors": [
+        {
+            "name": "LucasFreitasRocha",
+            "email": "rochadefreitaslucas@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Biblioteca\\": "Biblioteca"
+        }
+    }
+}

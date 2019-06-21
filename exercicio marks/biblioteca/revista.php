@@ -1,11 +1,13 @@
-<?
+<?php
+
 namespace Biblioteca;
 
-class Revista extends Publicacao 
+class Revista extends Publicacao
 {
     private $peridodicidadeEmdias;
-    public function __construct( long $id, string $titulo, int $numexemplares )
-    {
 
+    public function __construct(int $id, string $titulo, int $numexemplares)
+    {
+        $this->numexemplares = $numexemplares;
     }
 }
