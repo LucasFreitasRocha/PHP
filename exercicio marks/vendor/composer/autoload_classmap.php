@@ -6,8 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Biblioteca\\Area' => $baseDir . '/Biblioteca/area.php',
-    'Biblioteca\\Domainobject' => $baseDir . '/Biblioteca/domainobject.php',
-    'Biblioteca\\Publicacao' => $baseDir . '/Biblioteca/publicacao.php',
-    'Biblioteca\\Revista' => $baseDir . '/Biblioteca/revista.php',
+    'Biblioteca\\Area' => $baseDir . '/Biblioteca/Area.php',
+    'Biblioteca\\DomainObject' => $baseDir . '/Biblioteca/Domainobject.php',
+    'Biblioteca\\Publicacao' => $baseDir . '/Biblioteca/Publicacao.php',
+    'Biblioteca\\Revista' => $baseDir . '/Biblioteca/Revista.php',
 );

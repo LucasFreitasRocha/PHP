@@ -21,10 +21,10 @@ class ComposerStaticInitb99ff5595266bec75d787ff7a3a2248b
     );
 
     public static $classMap = array (
-        'Biblioteca\\Area' => __DIR__ . '/../..' . '/Biblioteca/area.php',
-        'Biblioteca\\Domainobject' => __DIR__ . '/../..' . '/Biblioteca/domainobject.php',
-        'Biblioteca\\Publicacao' => __DIR__ . '/../..' . '/Biblioteca/publicacao.php',
-        'Biblioteca\\Revista' => __DIR__ . '/../..' . '/Biblioteca/revista.php',
+        'Biblioteca\\Area' => __DIR__ . '/../..' . '/Biblioteca/Area.php',
+        'Biblioteca\\DomainObject' => __DIR__ . '/../..' . '/Biblioteca/Domainobject.php',
+        'Biblioteca\\Publicacao' => __DIR__ . '/../..',
+        'Biblioteca\\Revista' => __DIR__ . '/../..',
     );
 
     public static function getInitializer(ClassLoader $loader)
